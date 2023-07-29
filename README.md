@@ -22,7 +22,7 @@ Requests are of the following form:
 If it is impossible to perform operations (for example, the account is frozen, the operation will lead to an overrun of the allowable credit limit, incorrect account number, incorrect data entry, etc.), the program politely displays a message about this and reads the next request. If the transaction is successful, display a message about it.
 
 The Makefile must contain the following targets, with their dependencies correctly described:
-*for building each object module (.o)
-*for release builds (without including debug information)
-*for debug build and running tests with valgrind (memcheck, helgrind), checking the correctness of the result
-*for assembly to measure coverage on a test set
+* for building each object module (.o)
+* for release builds (without including debug information)
+* for debug build and running tests with valgrind (memcheck, helgrind), checking the correctness of the result
+* for assembly to measure coverage on a test set
