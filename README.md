@@ -4,7 +4,7 @@
 A transparent bank keeps N accounts with numbers from 0 to N-1. Each account has:
 * current balance -- signed integer (balance can be negative)
 * minimum possible balance -- signed integer
-* maximum possible balance -- signed integer
+* maximum possible balance -- signed integerr
 * is the account frozen, that is, is it allowed to change the current balance
 
 The initializer program creates a new bank with N (command line argument) unfrozen accounts with zero balance, zero minimum balance, and some positive maximum possible balance.
